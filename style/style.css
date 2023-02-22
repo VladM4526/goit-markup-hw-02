@@ -8,6 +8,7 @@
 
 :root {
     --Primary-Brand: #4D5AE5;
+    --Pressed-state: #404BBF;
     --Dark: #2E2F42;
     --Text: #434455;
     --Light: #F4F4FD;
@@ -124,6 +125,11 @@
     font-size: 16px;
     line-height: 1.5;
     margin-top: 50px;
+}
+
+.webstudio-service-button:hover,
+.webstudio-service-button:focus {
+    background: var(--Pressed-state);
 }
 
 /*Services*/
