@@ -30,15 +30,30 @@
     margin-left: 75px;
 }
 
-.webstudio-header-logo {
-    padding-top: 24px;
+.webstudio-nav-logo {
+    position: relative;
+    top: 29px;
+    color: var(--Dark);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.webstudio-nav-link-color {
+    color: var(--Primary-Brand);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
 }
 
 .webstudio-header-menu a {
     color: var(--Dark);
     position: relative;
     left: 75px;
-    bottom: 25px;
+    top: 9px;
 }
 
 .webstudio-header-menu li {
@@ -68,17 +83,146 @@
     padding-left: 40px;
 }
 
+/*Services*/
 
+.webstudio-filter {
+    width: 586px;
+    height: 48px;
+    display: flex;
+    position: relative;
+    left: 670px;
+    margin-top: 95px;
+}
+
+.webstudio-services-style-buttons-all {
+    width: 69px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 2px 1px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.webstudio-services-style-buttons-all:hover,
+.webstudio-services-style-buttons-all:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-web-site {
+    width: 116px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-web-site:hover,
+.webstudio-services-style-buttons-web-site:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-app {
+    width: 78px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-app:hover,
+.webstudio-services-style-buttons-app:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-design {
+    width: 101px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-design:hover,
+.webstudio-services-style-buttons-design:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-marketing {
+    width: 126px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-marketing:hover,
+.webstudio-services-style-buttons-marketing:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
 
 /*Footer*/
 
 .webstudio-footer {
+    display: none;
     height: 310px;
     background: var(--Dark);
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 403px;
+    padding-left: 403px;*/
 }
 
 .webstudio-footer-text {
