@@ -93,9 +93,9 @@
 
 .webstudio-filter-buttons {
     display: flex;
-        position: relative;
-        left: 670px;
-        margin-top: 95px;
+    position: relative;
+    left: 670px;
+    margin-top: 95px;
 }
 
 .webstudio-services-style-buttons-all {
@@ -219,25 +219,274 @@
 
 /*filter-services*/
 
+.webstudio-filter-services-cards {
+    display: flex;
+    margin-top: 75px;
+}
 
+/*banking-app*/
+
+.webstudio-cards-banking-app-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    left: 375px;
+}
+
+.webstudio-cards-banking-app-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-banking-app-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Cashless Payment*/
+
+.webstudio-cards-cashless-payment-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    left: 755px;
+}
+
+.webstudio-cards-cashless-payment-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-cashless-payment-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Meditaion App*/
+
+.webstudio-cards-meditaion-app-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    left: 1135px;
+}
+
+.webstudio-cards-meditaion-app-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-meditaion-app-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Taxi Service*/
+
+.webstudio-cards-taxi-service-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    top: 760px;
+    left: 375px;
+}
+
+.webstudio-cards-taxi-service-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-taxi-service-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Screen Illustrations*/
+
+.webstudio-cards-screen-illustrations-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    top: 760px;
+    left: 755px;
+}
+
+.webstudio-cards-screen-illustrations-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-screen-illustrations-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Online Courses*/
+
+.webstudio-cards-online-courses-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    top: 760px;
+    left: 1135px;
+}
+
+.webstudio-cards-online-courses-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-online-courses-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Instagram Stories Concept*/
+
+.webstudio-cards-instagram-stories-concept-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    top: 1224px;
+    left: 375px;
+}
+
+.webstudio-cards-instagram-stories-concept-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-instagram-stories-concept-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Organic Food*/
+
+.webstudio-cards-organic-food-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    top: 1224px;
+    left: 755px;
+}
+
+.webstudio-cards-organic-food-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-organic-food-text {
+    padding: 10px 0px 35px 15px;
+}
+
+/*Fresh Coffee*/
+
+.webstudio-cards-fresh-coffee-section {
+    width: 360px;
+    border: 1px solid var(--Accent);
+    background: var(--White);
+    position: absolute;
+    top: 1224px;
+    left: 1135px;
+}
+
+.webstudio-cards-fresh-coffee-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.webstudio-cards-fresh-coffee-text {
+    padding: 10px 0px 35px 15px;
+}
 
 /*Footer*/
 
 .webstudio-footer {
-    display: none;
     height: 310px;
     background: var(--Dark);
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 403px;*/
+    position: relative;
+    top: 1570px;
+}
+
+.webstudio-footer-logo {
+    color: var(--Cloud);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.webstudio-footer-link-color {
+    color: var(--Primary-Brand);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
 }
 
 .webstudio-footer-text {
     width: 264px;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.2;
     color: var(--Accent);
     padding-top: 15px;
 }
