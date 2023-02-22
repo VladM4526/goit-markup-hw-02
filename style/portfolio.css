@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --Primary-Brand: #4D5AE5;
+    --Dark: #2E2F42;
+    --Text: #434455;
+    --Light: #F4F4FD;
+    --White: #FFFFFF;
+    --Accent: #E7E9FC;
+}
+
+/*Header*/
+
+.webstudio-header {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.webstudio-header-menu {
+    width: 361px;
+    height: 24px;
+    font-size: 16px;
+    margin-left: 75px;
+}
+
+.webstudio-nav-logo {
+    position: relative;
+    top: 29px;
+    color: var(--Dark);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.webstudio-nav-link-color {
+    color: var(--Primary-Brand);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.webstudio-header-menu a {
+    color: var(--Dark);
+    position: relative;
+    left: 75px;
+    top: 9px;
+}
+
+.webstudio-header-menu li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.webstudio-header-contant {
+    font-size: 16px;
+    padding-top: 20px;
+    margin-left: 335px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.webstudio-header-contant a {
+    color: var(--Text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    position: relative;
+}
+
+.webstudio-header-contant li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+/*Services*/
+
+.webstudio-filter {
+    width: 586px;
+    height: 48px;
+}
+
+.webstudio-filter-buttons {
+    display: flex;
+    position: relative;
+    left: 670px;
+    margin-top: 95px;
+}
+
+.webstudio-services-style-buttons-all {
+    width: 69px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.webstudio-services-style-buttons-all:hover,
+.webstudio-services-style-buttons-all:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-web-site {
+    width: 116px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-web-site:hover,
+.webstudio-services-style-buttons-web-site:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-app {
+    width: 78px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-app:hover,
+.webstudio-services-style-buttons-app:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-design {
+    width: 101px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-design:hover,
+.webstudio-services-style-buttons-design:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+.webstudio-services-style-buttons-marketing {
+    width: 126px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Light);
+    color: var(--Primary-Brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.webstudio-services-style-buttons-marketing:hover,
+.webstudio-services-style-buttons-marketing:focus {
+    background: var(--Pressed-state);
+    color: var(--White);
+    cursor: pointer;
+}
+
+/*Footer*/
+
+.webstudio-footer {
+    display: none;
+    height: 310px;
+    background: var(--Dark);
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 403px;*/
+}
+
+.webstudio-footer-text {
+    width: 264px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--Accent);
+    padding-top: 15px;
+}
