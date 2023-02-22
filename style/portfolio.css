@@ -13,6 +13,7 @@
     --Light: #F4F4FD;
     --White: #FFFFFF;
     --Accent: #E7E9FC;
+    --Pressed-state: #404BBF;
 }
 
 /*Header*/
@@ -92,9 +93,9 @@
 
 .webstudio-filter-buttons {
     display: flex;
-    position: relative;
-    left: 670px;
-    margin-top: 95px;
+        position: relative;
+        left: 670px;
+        margin-top: 95px;
 }
 
 .webstudio-services-style-buttons-all {
