@@ -13,6 +13,7 @@
     --Light: #F4F4FD;
     --White: #FFFFFF;
     --Accent: #E7E9FC;
+    --Cloud: #F4F4FD;
 }
 
 /*Header*/
@@ -30,15 +31,30 @@
     margin-left: 75px;
 }
 
-.webstudio-header-logo {
-    padding-top: 24px;
+.webstudio-nav-logo {
+    position: relative;
+    top: 29px;
+    color: var(--Dark);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.webstudio-nav-link-color {
+    color: var(--Primary-Brand);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
 }
 
 .webstudio-header-menu a {
     color: var(--Dark);
     position: relative;
     left: 75px;
-    bottom: 25px;
+    top: 9px;
 }
 
 .webstudio-header-menu li {
@@ -264,6 +280,23 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 403px;
+}
+
+.webstudio-footer-logo {
+    color: var(--Cloud);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.webstudio-footer-link-color {
+    color: var(--Primary-Brand);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
 }
 
 .webstudio-footer-text {
