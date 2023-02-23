@@ -39,7 +39,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1;
+    line-height: 1.33;
 }
 
 .webstudio-nav-link-color {
@@ -59,7 +59,11 @@
     color: var(--Dark);
     position: relative;
     left: 75px;
-    top: 9px;
+    top: 5px;
+}
+
+.webstudio-header-menu a:hover {
+    cursor: pointer;
 }
 
 .webstudio-header-menu li {
@@ -69,10 +73,9 @@
 
 .webstudio-header-contant {
     font-size: 16px;
-    padding-top: 20px;
     margin-left: 335px;
     display: inline-block;
-    padding-top: 25px;
+    padding-top: 29px;
 }
 
 .webstudio-header-contant a {
@@ -107,7 +110,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1;
+    line-height: 1.07;
     margin-top: 185px;
     text-align: center;
 }
@@ -130,6 +133,7 @@
 .webstudio-service-button:hover,
 .webstudio-service-button:focus {
     background: var(--Pressed-state);
+    cursor: pointer;
 }
 
 /*Services*/
@@ -139,14 +143,15 @@
 }
 
 .webstudio-services-title-section {
+    display: none;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 .webstudio-services-title {
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -154,7 +159,6 @@
 
 .webstudio-services-title-text {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     padding-top: 10px;
@@ -350,7 +354,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1;
+    line-height: 1.33;
 }
 
 .webstudio-footer-link-color {
@@ -367,7 +371,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: var(--Accent);
     padding-top: 15px;
+    letter-spacing: 0.02em;
 }
