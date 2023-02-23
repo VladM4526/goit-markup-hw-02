@@ -8,12 +8,13 @@
 
 :root {
     --Primary-Brand: #4D5AE5;
+    --Pressed-state: #404BBF;
     --Dark: #2E2F42;
     --Text: #434455;
     --Light: #F4F4FD;
     --White: #FFFFFF;
     --Accent: #E7E9FC;
-    --Pressed-state: #404BBF;
+    --Cloud: #F4F4FD;
 }
 
 /*Header*/
@@ -38,7 +39,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1;
+    line-height: 1.33;
 }
 
 .webstudio-nav-link-color {
@@ -51,10 +52,18 @@
 }
 
 .webstudio-header-menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     color: var(--Dark);
     position: relative;
     left: 75px;
-    top: 9px;
+    top: 5px;
+}
+
+.webstudio-header-menu a:hover {
+    cursor: pointer;
 }
 
 .webstudio-header-menu li {
@@ -64,17 +73,17 @@
 
 .webstudio-header-contant {
     font-size: 16px;
-    padding-top: 20px;
     margin-left: 335px;
     display: inline-block;
-    padding-top: 25px;
+    padding-top: 29px;
 }
 
 .webstudio-header-contant a {
     color: var(--Text);
-    font-size: 16px;
     font-style: normal;
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     position: relative;
 }
@@ -247,6 +256,10 @@
 
 .webstudio-cards-banking-app-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Cashless Payment*/
@@ -272,6 +285,10 @@
 
 .webstudio-cards-cashless-payment-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Meditaion App*/
@@ -297,6 +314,10 @@
 
 .webstudio-cards-meditaion-app-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Taxi Service*/
@@ -323,6 +344,10 @@
 
 .webstudio-cards-taxi-service-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Screen Illustrations*/
@@ -349,6 +374,10 @@
 
 .webstudio-cards-screen-illustrations-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Online Courses*/
@@ -375,6 +404,10 @@
 
 .webstudio-cards-online-courses-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Instagram Stories Concept*/
@@ -401,6 +434,10 @@
 
 .webstudio-cards-instagram-stories-concept-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Organic Food*/
@@ -427,6 +464,10 @@
 
 .webstudio-cards-organic-food-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Fresh Coffee*/
@@ -453,11 +494,19 @@
 
 .webstudio-cards-fresh-coffee-text {
     padding: 10px 0px 35px 15px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Footer*/
 
 .webstudio-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 390px;
     height: 310px;
     background: var(--Dark);
     position: relative;
@@ -469,7 +518,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1;
+    line-height: 1.33;
 }
 
 .webstudio-footer-link-color {
@@ -486,7 +535,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: var(--Accent);
     padding-top: 15px;
+    letter-spacing: 0.02em;
 }
